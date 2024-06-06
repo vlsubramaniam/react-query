@@ -9,4 +9,5 @@ const StyledHeader = styled.header`
 const Header = () => {
   return <StyledHeader>Header</StyledHeader>;
 };
+
 export default Header;

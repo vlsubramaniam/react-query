@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import './App.css';
 import GlobalStyles from './styles/GlobalStyles';
 import {
   Dashboard,
@@ -9,7 +8,7 @@ import {
   Settings,
   Account,
   Login,
-  PageNotFound
+  PageNotFound,
 } from './pages';
 import AppLayout from './ui/AppLayout';
 

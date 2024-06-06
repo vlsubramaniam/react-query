@@ -28,4 +28,5 @@ const AppLayout = () => {
     </StyledAppLayout>
   );
 };
+
 export default AppLayout;
