@@ -61,6 +61,7 @@ function CabinRow({ cabin }) {
         queryKey: ['cabin'],
       });
     },
+    onError: (err) => alert(err.message),
   });
 
   return (
